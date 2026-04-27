@@ -1,9 +1,5 @@
 pipeline {
     agent any
-    tools {
-        // Use the name you defined in Global Tool Configuration
-        nodejs "node-25" 
-    }
     environment {
         CI = 'true'
     }
